@@ -1,6 +1,6 @@
-a:link, a:visited {
-  background-color: rgb(199, 56, 0);
-  color: #dbe728;
+  a:link, a:visited {
+  background-color: #222233;
+  color: #aaccff;
   padding: 10px 15px;
   text-align: center;
   text-decoration: none;
@@ -8,7 +8,7 @@ a:link, a:visited {
 }
   
 a:hover, a:active {
-  background-color: #051938;
+  background-color: #2565c5;
   color: #9191b6;
   padding: 10px 15px;
   text-align: center;
