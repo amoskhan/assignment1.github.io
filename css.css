@@ -1,4 +1,4 @@
-  a:link, a:visited {
+  a.class1:link, a.class1:visited {
   background-color: #222233;
   color: #aaccff;
   padding: 10px 15px;
@@ -7,10 +7,25 @@
   display: inline-block;
 }
   
-a:hover, a:active {
-  background-color: #2565c5;
-  color: #9191b6;
+a.class1:hover, a.class1:active {
+  background-color: #0360eb;
+  color: #ffffff;
   padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a.class2:link, a.class2:visited {
+  color: #ff0000;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+  
+a.class2:hover, a.class2:active {
+  color: #0011ff;
+  padding: 0px 0px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
